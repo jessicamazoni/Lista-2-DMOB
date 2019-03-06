@@ -1,0 +1,197 @@
+/*INÍCIO CSS EXERCÍCIO 1*/
+p {
+	border-right: 20em solid #008000;
+	border-left: 20em solid #FF0000;
+	width: 60%;
+	height: 400px;
+	font-size: 12px;
+	letter-spacing: 3px;
+	word-spacing: 4px;
+	text-align: justify;
+	font-family: "Verdana";
+	text-indent: 25px;
+}
+
+p::first-letter{
+	font-size: 36px;
+	color: #0000FF;
+	text-decoration: overline;
+}
+
+p::first-line{
+	text-decoration: underline;
+	text-transform: uppercase;
+}
+
+
+/*INÍCIO CSS EXERCÍCIO 2*/
+/*Link 1*/
+a.exercicio2__link1:link{
+	text-decoration: none;
+	color: #000;
+}
+
+/*Link 2*/
+a.exercicio2__link2:link{
+	text-decoration: overline;
+}
+
+a.exercicio2__link2:visited{
+	text-decoration: underline;
+}
+
+a.exercicio2__link2:active{
+	text-decoration:line-through;
+}
+
+/*Link 3*/
+a.exercicio2__link3:link{
+	color: #FFA500;
+	text-decoration: none;
+	
+}
+
+a.exercicio2__link3:hover{
+	text-decoration: underline;
+	color: #008000;
+}
+
+/*Link 4*/
+a.exercicio2__link4:link{
+	border: 5px solid #0000FF;
+	background-color: #000;
+	color: #fff;
+}
+
+a.exercicio2__link4:hover{
+	text-decoration: none;
+	border: 5px dotted #000;
+	background-color: #fff;
+	color: #000;
+}
+
+/*Link 5*/
+a.exercicio2__link5:link{
+	color: #FF0000;
+	text-decoration: none;
+}
+
+a.exercicio2__link5:visited{
+	font-weight: bold;
+	font-style: italic;
+	color: #FFA500;
+	
+}
+
+a.exercicio2__link5:hover{
+	text-decoration: underline;
+}
+
+a.exercicio2__link5:active{
+	color: #FFFF00;
+}
+
+
+/*INÍCIO CSS EXERCÍCIO 3*/
+.exercicio3:hover .exercicio3__img1{
+	display: none;
+}
+.exercicio3:hover .exercicio3__img2{
+	display: block;
+}
+.exercicio3__img1{
+	display: block;
+}
+
+.exercicio3__img2{
+	display: none;
+}
+
+
+/*INÍCIO CSS EXERCÍCIO 4*/
+.exercicio4__menu{
+	border: 3px solid #027ffc;
+	margin-left: 20%;
+	margin-right: 20%;
+}
+.exercicio4__menu ul {
+    float: right;
+}
+
+.menu--noticias{
+	color: #e84625;
+
+}
+
+.menu--esportes{
+	color: #86b010;
+
+}
+.menu--entretenimento{
+	color: #f59228;
+
+}
+.menu--videos{
+	color: #0c64fc;
+
+}
+.exercicio4__menu ul li { 
+	display: inline; 
+	font-family: sans-serif;
+	font-weight: bold;
+	font-size: 2em;
+}
+
+.exercicio4__menu ul li a {
+	padding: 20px 50px 0 20px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+
+.exercicio4__menu ul li a:hover {
+	text-decoration: overline;
+}
+
+
+/*INÍCIO CSS EXERCÍCIO 5*/
+ul {
+  list-style-image: url('../Imagens/seta.gif');
+}
+.exercicio5{
+	color: #FF0000;
+	font-size: 12px;
+	font-family: "Verdana";
+}
+
+.exercicio5__li {
+	list-style-type:none;
+	border-bottom: 1px dotted #FF0000;
+}
+
+.exercicio5__ul:hover {
+	color: #008000;
+	border-bottom: 1px dotted #008000;
+	list-style-image: url('../Imagens/setaV.gif')
+}
+
+.exercicio5__li:hover {
+	color: #008000;
+	border-bottom: 1px dotted #008000;
+	list-style-image: url('../Imagens/setaV.gif')
+}
+
+
+/*INÍCIO CSS EXERCÍCIO 6*/
+.exercicio6__a{
+	text-decoration: none;
+}
+.exercicio6:hover img{ 
+	text-decoration: border;
+	border: 3px solid red;
+}
+
+.exercicio6:hover a{ 
+	text-decoration: underline red;
+	
+}
